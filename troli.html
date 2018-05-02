@@ -24,11 +24,11 @@
     <!-- End Alert Promo -->
 
     <!-- Header -->
-      <div class="container-fluid f-color">
+      <div class="container f-color">
         <div class="row f-padding-header">
 
         <!-- Brand -->
-          <div class="col-md-3">
+          <div class="col-lg-3 col-md-4">
             <a href="index.html" class="navbar-brand f-logo">
               <img src="assets/brand/citrus-logo.png" alt="">
             </a>
@@ -36,7 +36,7 @@
         <!-- End Brand -->
 
         <!-- Search -->
-         <div class="col-md-6">
+          <div class="col-lg-6 col-md-8">
              <form class="form" >
               <div class="input-group">
                   <input class="form-control r-style-search f-input-shadow" type="text" placeholder="Cari Produk" aria-label="Search" id="search">
@@ -49,17 +49,31 @@
           <!-- End Search -->
 
           <!-- User -->
-          <div class="col-md-3">
+          <div class="col-lg-3 col-md-12">
             <div class="r-header-user">
-            <!-- <a  class="r-link-konfirm" href=""> Konfirmasi Pesanan </a> -->
-            <a href="#" class="fa fa-shopping-cart"></a>
-            <a href="#" class="fa fa-user"></a>
+              <button type="button" class="btn f-color">
+                <a  class="" href="">Order </a><span class="badge badge-light">9</span>
+                <span class="sr-only">unread messages</span>
+              </button>
+              <!-- <a  class="r-link-konfirm" href=""> Konfirmasi Pesanan </a> -->
+              <a href="#" class="fa fa-shopping-cart"></a>
+              <div class="dropdown">
+                <button class="dropbtn"><a href="login.html" class="fa fa-user"></a></button>
+                <div class="dropdown-content">
+                  <a href="#">Login</a>
+                  <a href="#">Registrasi</a>
+                  <hr style="margin: 0px;">
+                  <a href="#">Logout</a>
+                </div>
+              </div>
             </div>
           </div>
-           <!-- End User -->
+          <!-- End User -->
         </div>
+      </div>
         
       <!-- Navigasi Bar -->
+      <div class="container-fluid f-color">
         <hr class="f-hr">
         <div class="row">
           <nav class="navbar navbar-expand-lg navbar-light f-nav f-color">
