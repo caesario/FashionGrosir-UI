@@ -513,7 +513,7 @@ img.f-img-sidebar {
 	color: black;
 }
 
-.r-upload-btn-wrapper {
+.r-upload-f-button-font-wrapper {
   position: relative;
   overflow: hidden;
   display: inline-block;
@@ -687,3 +687,84 @@ body > div.container-fluid.f-color > div.row.f-padding-header > div:nth-child(3)
 .dropdown:hover .dropbtn {
     /*background-color: #3e8e41;*/
 }
+
+
+/* CSS Style - Halaman profil - Profil saya */
+
+.r-layout-row {
+	margin-top: 3%;
+}
+.r-layout-vertical-navbar {
+	width: 100%;
+	height: 100%;
+}
+
+.r-ul-style-profile {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+.r-li-style-profile {
+	text-decoration: none;
+	padding: 0;
+	margin: 0;
+	text-align: center;
+
+
+
+}
+
+
+.r-li-style-profile a {
+	text-decoration: none;
+	color: #F06292;
+	display: block;
+	padding: 8px 16px;
+	border-radius: 4px;
+	
+}
+
+.r-li-style-profile-active a {
+	background-color: #F06292;
+	color: white;
+	
+}
+
+.r-li-style-profile a:hover {
+	background-color: #F06292;
+	color: white;
+}
+
+.r-layout-konten-profile {
+	margin-top: 1%;
+	margin-bottom: 1%;
+}
+
+.r-font-konten-profile {
+	color: #F06292;
+
+}
+
+.r-style-title-konten-profile {
+	color: #F06292;
+	text-align: center;
+	margin-top: 2%;
+	margin-bottom: 2%;
+
+}
+
+.r-btn-konten-profile {
+	background-color: #F06292;
+	color: white;
+
+}
+
+.r-btn-konten-profile:hover {
+	background-color: white;
+	color: #F06292;
+	border: 1px solid #F06292;
+	border-radius: 4px;
+}
+
+
