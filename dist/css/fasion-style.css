@@ -54,6 +54,10 @@ body {
 	color: #f9f9f9;
 }
 
+.f-new-footer ul li a{
+	color: red;
+}
+
 .f-logo {
 	margin-left: 10px;
 }
@@ -70,7 +74,43 @@ body {
 .f-nav-margin:hover {
 	background-color: ;
 	opacity: 0.6;
+}
 
+.f-footer-new {
+	font-size: 15px;
+	padding: 3px;
+}
+
+.f-logo-footer {
+	/*margin-left: 20%;*/
+}
+
+.f-footer-bg {
+	margin-top: 20px;
+	padding-top: 20px;
+	/*padding-bottom: 20px;*/
+	background-color: #F8F9FA;
+	
+}
+
+.f-margin-nav {
+	padding-bottom: 20px;
+}
+
+.f-font-footer {
+	color: #F06292;
+}
+
+.f-sosmed {
+	font-size: 30px;
+	margin: 10px;
+	/*border: 2px solid red;*/
+	border-radius: 50%;
+	color: #F06292;
+}
+
+.f-sosmed:hover {
+	color: #F4427D;
 }
 
 .navbar-light .navbar-nav .nav-link {
@@ -78,7 +118,7 @@ body {
 }
 
 .navbar-light .navbar-nav .nav-link:hover {
-	color: black;
+	color: #444;
 }
 
 .f-button-color {
