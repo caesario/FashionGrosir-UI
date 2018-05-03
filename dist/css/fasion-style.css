@@ -101,6 +101,10 @@ body {
 	color: #F06292;
 }
 
+/*.f-hr-footer {
+	width: 100%;
+}*/
+
 .f-sosmed {
 	font-size: 30px;
 	margin: 10px;
@@ -215,6 +219,10 @@ input .form-control {
 
 .f-bottom:hover .f-title-harga {
 	color: #F06292;
+}
+
+.f-hot-font {
+	font-size: 1.1rem;
 }
 
 .f-bg-clear {
