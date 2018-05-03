@@ -807,4 +807,10 @@ body > div.container-fluid.f-color > div.row.f-padding-header > div:nth-child(3)
 	border-radius: 4px;
 }
 
+.r-btn-konten-profile {
+	background-color: #F06292;
+	color: white;
+	font-size: 10px;
+
+}
 
