@@ -334,6 +334,10 @@ p.f-font-detail {
 	margin-top: 15px;
 }
 
+.f-width-variasi {
+	width: 40%;
+}
+
 .f-sidebar-menu {
 	border: none;
 	padding: 0.20rem 0.5rem;
