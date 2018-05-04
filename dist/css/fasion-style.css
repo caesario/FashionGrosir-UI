@@ -247,6 +247,9 @@ input .form-control {
 	margin-top: 0px
 }*/
 
+.f-title-margin {
+	margin-bottom: 10px;
+}
 
 .f-no-background {
   background-color: transparent;
@@ -322,6 +325,15 @@ p.f-font-detail {
 	color: #777777;
 }
 
+.f-font-detail a {
+	text-decoration: none;
+	color: #F06292;
+}
+
+.f-font-detail a:hover {
+	color: #555;
+}
+
 .f-detail {
 	color: #444444;
 }
@@ -336,6 +348,10 @@ p.f-font-detail {
 
 .f-width-variasi {
 	width: 40%;
+}
+
+.f-width-variasi-2 {
+	width: 25%;
 }
 
 .f-sidebar-menu {
