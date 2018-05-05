@@ -864,7 +864,7 @@ body > div.container-fluid.f-color > div.row.f-padding-header > div:nth-child(3)
 }
 .r-link-kontak a {
 	text-decoration: none;
-	font-size: 23px;
+	font-size: 18px;
 	color: #F06292; 
 
 }
@@ -875,10 +875,183 @@ body > div.container-fluid.f-color > div.row.f-padding-header > div:nth-child(3)
 }
 
 .r-layoutlist-kontak {
-	margin-top: 5%;
-	margin-bottom: 5%;
+	margin-top: 10%;
+	margin-bottom: 10%;
 }
 
 .r-vl-kontak {
-	border-left: 3px solid #F06292;
+	border-right: 1px solid #F06292;
+	padding-left: 10%;
 }
+
+
+.r-layout-kontakkanan {
+	margin-left: 5%;
+	margin-bottom: 3%;
+	margin-top: 3%;
+	margin-right: 3%;
+
+	
+}
+
+.r-layout-kontakkanan-font {
+	color: #F06292;
+}
+
+.btn-kontak-submit {
+	background-color: #F06292;
+	color: white;
+}
+
+.r-title-kontak {
+	color: #F06292;
+	text-align: center;
+	margin-top: 3%;
+}
+
+.r-title-kontak-bawah {
+	color: #F06292;
+	text-align: center;
+	margin-top: 3%;
+	font-size: 20px
+}
+
+.r-padding-ikon-social {
+	margin-right: 39%;
+	margin-left: 39%;
+
+}
+
+.r-padding-ikon-social li {
+	display: inline-block;
+	font-size: 30px;
+	padding-left: 2%;
+	padding-right: 2%;
+	
+}
+
+.r-padding-ikon-social li a i {
+	color: #F06292;
+}
+
+
+@media only screen and (max-width: 1024px) {
+.r-padding-ikon-social {
+	margin-right:35%;
+	margin-left: 35%;
+}
+
+
+}
+@media only screen and (max-width: 768px) {
+	
+	.r-link-kontak a {
+	text-decoration: none;
+	font-size: 13px;
+	color: #F06292; 
+}
+
+	.r-ikon-kontak i{
+	font-size: 30px;
+	color: #F06292;
+}
+
+.r-layoutlist-kontak {
+	margin-top: 20%;
+	margin-bottom: 20%;
+}
+.r-padding-ikon-social {
+	margin-right: 30%;
+	margin-left: 30%;
+}
+
+
+}
+
+@media only screen and (max-width: 321px) {
+	.r-ikon-kontak {
+	text-align: center;
+}
+
+.r-link-kontak {
+	text-align: center;
+}
+.r-vl-kontak {
+	border-right: none;
+}
+.r-kontak-mobile {
+	margin-top: 15%;
+
+}
+
+.r-padding-ikon-social {
+	margin-right: 0%;
+	margin-left: 0%;
+}
+
+}
+
+/* style Alamat Pengiriman **/
+
+
+.r-judul-shipping {
+	color: #F06292;
+	text-align: center;
+	margin-bottom: 3%;
+	margin-top: 1%;
+
+}
+
+.r-pilihan-alamat {
+	margin-right: 32%;
+	margin-left: 32%;
+
+}
+.r-pilihan-alamat li {
+	margin-left: 1%;
+}
+
+.r-pilihan-alamat-font {
+	color: #F06292;
+}
+
+.r-pilihan-alamat-font:hover {
+	background-color: #F06292;
+	color : white;
+}
+
+.r-border-pengiriman {
+	border: 2px solid #F06292;
+	border-radius: 10px;
+	padding: 3%;
+}
+
+.r-layout-pengiriman-dropship {
+	margin-top: 5%;
+}
+
+.pagination {
+    display: inline-block;
+}
+
+.pagination a {
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+    transition: background-color .3s;
+}
+
+.pagination a.active {
+    background-color: #F06292;
+    color: white;
+    border-radius: 5px;
+}
+
+.pagination a:hover:not(.active) {background-color: #ddd;}
+
+.pagination-layout {
+	text-align: right;
+	margin-top: 2%;
+}
+
