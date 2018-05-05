@@ -842,3 +842,43 @@ body > div.container-fluid.f-color > div.row.f-padding-header > div:nth-child(3)
 
 }
 
+
+/* Style Kontak CSS **/
+
+
+.r-layout-konten-kontak {
+	margin-left:15%;
+	margin-right: 15%;
+	margin-top: 5%;
+	margin-bottom: 5%;
+}
+
+.r-ulist-kontak {
+	list-style: none;
+	font-size: 25px;
+
+}
+
+.r-link-kontak {
+	padding-top: 2%;
+}
+.r-link-kontak a {
+	text-decoration: none;
+	font-size: 23px;
+	color: #F06292; 
+
+}
+
+.r-ikon-kontak i{
+	font-size: 50px;
+	color: #F06292;
+}
+
+.r-layoutlist-kontak {
+	margin-top: 5%;
+	margin-bottom: 5%;
+}
+
+.r-vl-kontak {
+	border-left: 3px solid #F06292;
+}
