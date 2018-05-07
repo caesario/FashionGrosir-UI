@@ -1,3 +1,6 @@
+/* Good Design is Good Business */
+/* EazyDev.Team */
+
 body {
 	background-color: #fefefe;
 }
@@ -84,6 +87,8 @@ body {
 .f-logo-footer {
 	/*margin-left: 20%;*/
 }
+
+/*C*/
 
 .f-footer-bg {
 	margin-top: 20px;
@@ -414,6 +419,8 @@ img.mr-3 {
 	margin-bottom: 0px;
 }
 
+/*S*/
+
 .f-icon-center {
 	margin-top: 5px;
 }
@@ -500,6 +507,8 @@ label:hover {
 .f-button-detail {
 	margin-top: 30px;
 }
+
+/*R*/
 
 img.f-img-sidebar {
 	width: 80px;
