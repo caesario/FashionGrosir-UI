@@ -448,7 +448,9 @@ label:hover {
     font-size: 18px;
     font-family: 'Poppins', sans-serif;
     color: #F06292;
-    text-align: left;
+    text-align: center;
+    margin-top: 2%;
+    margin-bottom: 4%;
 
 }
 
@@ -1030,8 +1032,7 @@ body > div.container-fluid.f-color > div.row.f-padding-header > div:nth-child(3)
 }
 
 .r-border-pengiriman {
-	border: 2px solid #F06292;
-	border-radius: 10px;
+	border: 1px solid #F06292;
 	padding: 3%;
 }
 
@@ -1062,5 +1063,21 @@ body > div.container-fluid.f-color > div.row.f-padding-header > div:nth-child(3)
 .pagination-layout {
 	text-align: right;
 	margin-top: 2%;
+}
+
+
+.text-center td {
+	font-size: 14px;
+
+}
+
+.table thead th {
+	font-size: 15px;
+} 
+
+.r-garis {
+	margin-top: 10%;
+	margin-bottom: 5%;
+	border: 1px solid #F06292;
 }
 
