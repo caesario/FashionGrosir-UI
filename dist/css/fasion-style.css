@@ -448,7 +448,9 @@ label:hover {
     font-size: 18px;
     font-family: 'Poppins', sans-serif;
     color: #F06292;
-    text-align: left;
+    text-align: center;
+    margin-top: 2%;
+    margin-bottom: 4%;
 
 }
 
@@ -1030,8 +1032,7 @@ body > div.container-fluid.f-color > div.row.f-padding-header > div:nth-child(3)
 }
 
 .r-border-pengiriman {
-	border: 2px solid #F06292;
-	border-radius: 10px;
+	border: 1px solid #F06292;
 	padding: 3%;
 }
 
@@ -1064,3 +1065,72 @@ body > div.container-fluid.f-color > div.row.f-padding-header > div:nth-child(3)
 	margin-top: 2%;
 }
 
+
+.text-center td {
+	font-size: 14px;
+
+}
+
+.table thead th {
+	font-size: 15px;
+} 
+
+.r-garis {
+	margin-top: 10%;
+	margin-bottom: 5%;
+	border: 1px solid #F06292;
+}
+
+.modal-content button {
+	text-align: right;
+	margin-right: 2%; 
+}
+
+.r-icon-modal-header {
+	color: #F06292;
+	font-size: 30px;
+	margin: auto;
+	text-align: center;	
+}
+
+.r-p-modal-header {
+	color: #F06292;
+	font-size: 12px;
+	margin: auto;
+	text-align: center;
+}
+
+.r-modal-footer {
+	width: 100%;
+}
+
+.r-modal-footer {
+	text-align: center;
+	padding: 3%;
+}
+
+.text-center button {
+	font-size: 11px;
+	background-color: #F06292;
+	color: white;
+}
+
+.r-font-modal-namabarang {
+	font-size: 15px;
+}
+
+.r-font-modal-detail {
+	font-size: 12px;
+}
+
+.modal-header {
+	border : none;
+}
+.modal-body {
+	width: 90%;
+	margin: auto;
+	border-top: 0.1px solid #F06292;
+	border-bottom: 0.1px solid  #F06292;
+	margin-bottom: 2%;	
+
+}
