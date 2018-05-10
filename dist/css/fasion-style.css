@@ -598,6 +598,7 @@ img.f-img-sidebar {
   display: inline-block;
 }
 
+
 .r-btn {
   border: 2px solid #F06292;
   color: #F06292;
@@ -608,7 +609,9 @@ img.f-img-sidebar {
   font-weight: bold;
 }
 
-.r-upload-btn-wrapper input[type=file] {
+
+
+.r-upload-f-button-font-wrapper input[type=file] {
   font-size: 100px;
   position: absolute;
   left: 0;
@@ -1200,4 +1203,23 @@ body > div.container-fluid.f-color > div.row.f-padding-header > div:nth-child(3)
 	padding: 1%;
 	font-size: 15px;
 	margin-top: 3%;
+}
+
+
+.r-layout-troli {
+	padding: 2%;
+}
+
+
+
+.r-active-step {
+	background-color: #F06292;
+	color:white;
+}
+
+.r-active-step span {
+	border: 2px solid white;
+}
+.r-active-step .f-troli-text {
+	color: white;
 }
