@@ -560,6 +560,11 @@ img.f-img-sidebar {
   }
 }
 
+.f-detail-jumlah {
+	width: 150px;
+	border-radius: 5px;
+	padding-left: 10px;
+}
 /* =============== Ricky ================= */
 
 .r-posisi-kartu {
