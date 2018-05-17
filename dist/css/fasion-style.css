@@ -531,8 +531,17 @@ img.f-img-sidebar {
 	}
 }
 
+@media screen and (max-width: 768px) {
+	.f-margin-media {
+		margin-left: 110px;
+	}
+}
+
 .f-font-harga {
 	font-size: 1.20rem;
+}
+.f-jumlah {
+	width: 70px;
 }
 
 .f-input-shadow:focus {
@@ -540,8 +549,9 @@ img.f-img-sidebar {
 	border-color: #fff;
 }
 
-.f-delete-troli {
+.f-delete-troli{
 	text-align: right;
+	color: #333;
 }
 
 @media screen and (max-width: 767px) {
