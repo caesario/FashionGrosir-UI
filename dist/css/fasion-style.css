@@ -963,6 +963,10 @@ body > div.container-fluid.f-color > div.row.f-padding-header > div:nth-child(3)
 	color: #F06292;
 }
 
+.f-radius {
+	border-radius: 4px;
+}
+
 
 @media only screen and (max-width: 1024px) {
 .r-padding-ikon-social {
